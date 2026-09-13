@@ -29,8 +29,8 @@ These are the things that will get your PR rejected if you miss them.
   required. Flat `.md` files are silently ignored by Claude Code.
 - SKILL.md must include YAML frontmatter: `name`, `description`,
   `argument-hint`, `allowed-tools`, and `model`
-- Model tier: `haiku` for read-only status checks, `opus` for multi-document
-  synthesis and phase gates, `sonnet` for everything else
+- Model tier: `sonnet` for read-only status checks, `fable` for multi-document
+  synthesis and phase gates, `opus` for everything else
 
 **Hooks**
 - Use `grep -E` — never `grep -P` (Perl regex breaks on Windows Git Bash)
